@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Navbar_2</title>
+        <meta charset="UTF-8">
+        <style>
+            /* Background Color of the website*/
+            body {
+                background-color: #616161;
+                width: auto;
+                margin: 0px;
+                font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+                font-size: 20px;
+            }
+
+            /*The Nav Wrapper*/
+            .wrapper {
+                background-color: #7d7d7d;
+                padding: 5px 10px;
+                text-align: center;
+            }
+            /*nav-item*/
+            nav ul li {
+                display: inline-block;
+                margin-right: 30px;
+                flex-wrap: wrap;
+                padding: 5px 0px;
+            }
+            nav ul li a {
+                text-decoration: none;
+                color: black;
+                transition: color 0.2s;
+            }
+
+            nav ul li a:hover {
+                color: white;
+            }
+            
+            form input[type="submit"], form input[type="search"]{
+                font-size: 20px;
+                padding: 10px;
+                margin: 0px;
+                border: 3px solid black;
+                background-color: black;
+                color: white;
+                 transition: border 0.2s;
+            }
+
+            form input[type="search"]:hover, form input[type="submit"]:hover{
+                border: 3px solid white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav class="flex-container">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contant</a></li>
+                    <li><a href="">Map</a></li>
+                    <li>
+                        <form>
+                            <input type="search" name="search" placeholder="Search">
+                            <input type="submit" value="Search">
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        <div>    
+    </body>
+</html>
